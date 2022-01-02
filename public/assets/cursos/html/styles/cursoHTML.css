@@ -17,8 +17,10 @@
     color: var(--white);
 }
 
-.container {
+header .title {
     text-align: center;
-    align-items: center;
-    margin-top: 2rem;
+}
+
+header .title h1 {
+    margin-top: 1rem;
 }
