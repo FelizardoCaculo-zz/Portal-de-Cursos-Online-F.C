@@ -2,6 +2,7 @@
 :root {
     --pink: #FF046F;
     --violet: #310e3d;
+    --white: #ffffff;
 }
 
 * {
@@ -13,6 +14,7 @@
     padding: 0;
     box-sizing: border-box;
     background-color: var(--violet);
+    color: var(--white);
 }
 
 .main-container {

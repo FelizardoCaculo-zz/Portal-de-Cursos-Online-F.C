@@ -7,7 +7,6 @@
 
 * {
     font-family: 'Roboto', sans-serif;
-    text-transform: capitalize;
     text-decoration: none;
     outline: none;
     margin: 0;
@@ -17,8 +16,35 @@
     color: var(--white);
 }
 
-.container {
-    text-align: center;
-    align-items: center;
+main .main-container {
     margin-top: 2rem;
+    text-align: center;
+}
+
+section .main-content {
+    margin-top: 1rem;
+}
+
+section .main-content p {
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+ul li {
+    margin-left: 2rem;
+    margin-right: 1rem;
+}
+
+section .secondary-contant {
+    margin-top: 1.5rem;
+}
+
+section .secondary-contant h2 {
+    text-align: center;
+}
+
+section .secondary-contant p {
+    margin-top: 1rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
 }
