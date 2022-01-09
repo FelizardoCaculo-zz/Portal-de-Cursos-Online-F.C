@@ -34,6 +34,10 @@ section .lessons-links a {
     justify-content: center;
 }
 
+section .lessons-links a+a {
+    margin-top: 2rem;
+}
+
 a {
     text-align: center;
     text-align: center;
