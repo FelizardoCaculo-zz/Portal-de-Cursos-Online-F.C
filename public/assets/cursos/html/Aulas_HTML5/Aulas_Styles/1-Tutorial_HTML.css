@@ -16,16 +16,20 @@
     color: var(--white);
 }
 
-main .main-container {
+.main-container {
     margin-top: 2rem;
-    text-align: center;
 }
 
-section .main-content {
+.main-content {
     margin-top: 1rem;
 }
 
-section .main-content p {
+.main-content h1 {
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+.main-content p {
     margin-left: 1rem;
     margin-right: 1rem;
 }
@@ -35,16 +39,18 @@ ul li {
     margin-right: 1rem;
 }
 
-section .secondary-contant {
+.secondary-content {
     margin-top: 1.5rem;
 }
 
-section .secondary-contant h2 {
+.secondary-content h2 {
     text-align: center;
 }
 
-section .secondary-contant p {
+.secondary-content p {
     margin-top: 1rem;
     margin-left: 1rem;
     margin-right: 1rem;
 }
+
+.code-example {}
