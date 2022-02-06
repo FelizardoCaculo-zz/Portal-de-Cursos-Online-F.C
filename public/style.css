@@ -12,6 +12,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    background-color: #310e3d;;
 }
 
 *::selection {
@@ -25,27 +26,23 @@ html {
 }
 
 body {
-    background: #333;
+    background: #310e3d;
+    width: 100%;
 }
 
 header {
-    width: 96%;
-    background: #fff;
     position: fixed;
     top: 2rem;
-    left: 50%;
-    transform: translate(-50%);
-    border-radius: 5rem;
     display: flex;
-    align-items: center;
+    align-items: left;
     justify-content: space-between;
     padding: 1rem 2rem;
-    z-index: 1000;
+    margin-bottom: 5%;
 }
 
 header .navbar ul {
     display: flex;
-    align-items: center;
+    align-items: left;
     justify-content: space-between;
     list-style: none;
 }
@@ -64,14 +61,13 @@ header .navbar ul li a:hover {
     color: var(--violet);
 }
 
-header .title h1 {
+header {
     font-size: 2.5rem;
-    color: var(--pink);
     text-transform: uppercase;
-    background-color: #333;
+    color: white;
 }
 
-header .title h1 .i {
+header .i {
     color: var(--pink);
     padding: 0 2rem;
 }
@@ -83,25 +79,37 @@ header .fa-bars {
     display: none;
 }
 
-.container img {
-    display: flex;
-    width: 100%;
-    height: 100%;
-    position: absolute;
+main .title {
+    color: white;
+}
+
+.title {
+    text-align: center;
+    margin-top: 30%;
+    font-size: 3rem;
+}
+
+
+.footer {
+    margin-top: 30%;
+    text-align: center;
+    color: white;
+    font-size: 1.5rem;
+    margin-bottom: 2%;
+}
+
+.footer .icons {
+    margin-bottom: 2%;
+}
+
+.footer a {
+    color: white;
+    font-size: 1.5rem;
+    margin-bottom: 2;
 }
 
 
 /* media queries */
-
-@media(max-width:1140x) {
-    .container img {
-        align-items: center;
-        text-align: center;
-        display: flex;
-        width: 100%;
-        margin-bottom: 0%;
-    }
-}
 
 @media(max-width:768px) {
     html {
@@ -115,8 +123,6 @@ header .fa-bars {
         top: 5.7rem;
         left: 0;
         width: 100%;
-        background: #fff;
-        border-radius: 1rem;
     }
     header .navbar ul {
         flex-flow: column;
@@ -131,7 +137,56 @@ header .fa-bars {
         font-size: 3rem;
         display: block;
     }
+
+    .title {
+        text-align: center;
+        margin-top: 90%;
+        font-size: 2rem;
+        position: static;
+        margin-bottom: 10%;
+    }
+
+
+    .footer {
+        margin-top: 20%;
+        text-align: center;
+        color: white;
+        font-size: 1rem;
+        margin-bottom: 2%;
+        position: static;
+    }
 }
 
+@media(max-width:400px) {
 
-/*          12:17/51:49           */
+    header .navbar{
+        position:fixed;
+        margin-bottom: 90%;
+    }
+
+    .title {
+        text-align: center;
+        margin-top: 150%;
+        font-size: 2rem;
+        margin-bottom: 2%;
+    }
+
+
+    .footer {
+        margin-top: 80%;
+        text-align: center;
+        color: white;
+        font-size: 1rem;
+        margin-bottom: 2%;
+    }
+
+    .footer .icons {
+        margin-bottom: 3%;
+    }
+    
+    .footer a {
+        color: white;
+        font-size: 1.5rem;
+        margin-bottom: 2%;
+    }
+}
