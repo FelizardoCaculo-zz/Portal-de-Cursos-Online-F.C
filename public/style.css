@@ -23,11 +23,12 @@
 html {
     font-size: 62.5%;
     overflow-x: hidden;
+    width: 100%;
+    height: 500px;
 }
 
 body {
     background: #310e3d;
-    width: 100%;
 }
 
 header {
@@ -37,7 +38,8 @@ header {
     align-items: right;
     justify-content: space-between;
     padding: 1rem 1rem;
-    margin-bottom: 5%;
+    height: 100px;
+    margin-bottom: 100%;
 }
 
 header .navbar ul {
@@ -79,32 +81,39 @@ header .fa-bars {
     display: none;
 }
 
+main {
+    height: 200px;
+}
+
+
 main .title {
     color: white;
+    margin-top: 200px;
+    margin-bottom: 30px;
 }
 
 .title {
     text-align: center;
-    margin-top: 30%;
-    font-size: 2.5rem;
+    font-size: 3rem;
 }
 
 .footer {
-    margin-top: 30%;
     text-align: center;
     color: white;
-    font-size: 1.5rem;
-    margin-bottom: 2%;
+    font-size: 1.5em;
+    margin-top: 100px;
+    height: 100px;
+    position: relative;
 }
 
 .footer .icons {
-    margin-bottom: 2%;
+    margin-bottom: 20px;
 }
 
 .footer a {
     color: white;
-    font-size: 1.5rem;
-    margin-bottom: 2;
+    font-size: 1.5em;
+    margin-bottom: 20px;
 }
 
 
@@ -116,6 +125,7 @@ main .title {
     html {
         font-size: 55%;
     }
+
     header .fa-bars {
         display: block;
     }
@@ -131,7 +141,6 @@ main .title {
     }
     header .navbar ul li {
         margin: 1rem 0;
-        width: 100%;
         text-align: center;
     }
     header .navbar ul li a {
@@ -139,16 +148,18 @@ main .title {
         display: block;
     }
 
+    main .title {
+        margin-top: 350px;
+    }
+
     .title {
         text-align: center;
-        margin-top: 90%;
-        font-size: 1.5rem;
+        font-size: 2rem;
         position: static;
-        margin-bottom: 10%;
     }
 
     .footer {
-        margin-top: 20%;
+        margin-top: 0;
         text-align: center;
         color: white;
         font-size: 1rem;
@@ -166,18 +177,14 @@ main .title {
 
     .title {
         text-align: center;
-        margin-top: 150%;
-        font-size: 1rem;
-        margin-bottom: 2%;
+        font-size: 1.5rem;
     }
 
 
     .footer {
-        margin-top: 60%;
         text-align: center;
         color: white;
         font-size: 1rem;
-        margin-bottom: 2%;
     }
 
     .footer .icons {
@@ -195,35 +202,23 @@ main .title {
 
     header .navbar{
         position:fixed;
-        margin-bottom: 90%;
     }
 
     .title {
         text-align: center;
-        margin-top: 150%;
-        padding-top: 25rem;
         font-size: 1rem;
-        margin-bottom: 2%;
     }
 
 
     .footer {
-        margin-top: 50%;
         text-align: center;
         color: white;
-        font-size: 1rem;
-        margin-bottom: 2%;
         display: block;
     }
 
-    .footer .icons {
-        margin-bottom: 3%;
-    }
-    
     .footer a {
         color: white;
         font-size: 1rem;
-        margin-bottom: 2%;
         display: block;
     }
 }
@@ -233,8 +228,7 @@ main .title {
 
     header .navbar {
         position:fixed;
-        margin-bottom: 90%;
-        font-size: 0.5rem;
+        font-size: 10%;
     }
 
 }
