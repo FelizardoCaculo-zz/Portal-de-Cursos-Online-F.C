@@ -17,10 +17,19 @@
     color: var(--white);
 }
 
+.title {
+    margin-top: 4rem;
+    text-align: center;
+    text-transform: uppercase;
+    color: var(--pink);
+    font-size: 1.8rem;
+    padding: 1rem;
+}
+
 .main-container {
     justify-content: space-between;
     text-align: center;
-    margin-top: 5rem;
+    margin-top: 2rem;
 }
 
 .main-container .course-list-items {
@@ -44,5 +53,12 @@
         font-size: 1rem;
         text-align: center;
         justify-content: space-around;
+    }
+
+    .title {
+        margin-top: 2rem;
+        font-size: 1rem;
+        margin-bottom: 2rem;
+        padding: 1rem;
     }
 }
