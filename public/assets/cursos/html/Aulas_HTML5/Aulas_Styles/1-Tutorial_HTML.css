@@ -57,8 +57,10 @@ pre{
     border: 3px solid #000;
     border-radius: 10px;
     display: inline-block;
-    margin: 1rem;
-    padding: 5px;
+    margin-top: 1rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    padding: 1rem;
     overflow-x: auto;
 }
 
