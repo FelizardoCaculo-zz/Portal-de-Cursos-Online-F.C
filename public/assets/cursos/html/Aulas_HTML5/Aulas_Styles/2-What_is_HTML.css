@@ -25,6 +25,14 @@ header h1 {
     margin: 1rem 1rem 1rem 1rem;
 }
 
+pre{
+    border: 3px solid #000;
+    border-radius: 10px;
+    display: inline-block;
+    margin: 1rem;
+    overflow-x: auto;
+}
+
 strong {
     color: var(--pink);
 }
