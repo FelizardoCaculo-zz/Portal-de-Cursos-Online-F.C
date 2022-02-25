@@ -64,6 +64,11 @@ header .navbar ul li a:hover {
     color: var(--violet);
 }
 
+header .navbar ul li a:hover {
+    background: #fff;
+    letter-spacing: .5rem;
+}
+
 header {
     font-size: 2.5rem;
     text-transform: uppercase;
@@ -93,6 +98,10 @@ main .title {
     margin-top: 45vh;
 }
 
+main .title:hover {
+    letter-spacing: .5rem;
+}
+
 .title {
     text-align: center;
     font-size: 3rem;
@@ -117,6 +126,11 @@ main .title {
     font-size: 1.5em;
     margin-bottom: 20px;
     margin-left: 2rem;
+}
+
+.footer a:hover {
+    background: var(--pink);
+    letter-spacing: .5rem;
 }
 
 .credit {
