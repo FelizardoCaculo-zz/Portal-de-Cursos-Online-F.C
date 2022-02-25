@@ -29,6 +29,7 @@ html {
 
 body {
     background: #310e3d;
+
 }
 
 header {
@@ -82,14 +83,14 @@ header .fa-bars {
 }
 
 main {
-    height: 200px;
+    max-height: 100vh;
+    width: 100vw;
 }
 
 
 main .title {
     color: white;
-    margin-top: 200px;
-    margin-bottom: 0px;
+    margin-top: 45vh;
 }
 
 .title {
@@ -101,10 +102,10 @@ main .title {
     text-align: center;
     color: white;
     font-size: 1.5em;
-    margin-top: 100px;
-    height: 50px;
+    margin-top: 32vh;
     position: relative;
     padding: 0px;
+    margin-bottom: 0%;
 }
 
 .footer .icons {
@@ -171,12 +172,8 @@ main .title {
     }
 
     .footer {
-        margin-top: 0;
-        text-align: center;
-        color: white;
-        font-size: 1rem;
-        margin-bottom: 2%;
-        position: static;
+        font-size: 1em;
+        margin-top: 27vh;
     }
 }
 
@@ -187,31 +184,32 @@ main .title {
         margin-bottom: 100px;
     }
 
-    .title {
-        text-align: center;
+    main .title {
+        color: white;
+        margin-top: 60vh;
         font-size: 1.5rem;
     }
 
-
-    .footer {
-        text-align: center;
-        color: white;
-        font-size: 1rem;
-    }
 
     .footer .icons {
         margin-bottom: 3%;
     }
     
-    .footer a {
-        color: white;
-        font-size: 1rem;
-        margin-bottom: 2px;
+    .footer {
+        font-size: 1em;
+        margin-top: 25vh;
     }
 
     .credit {
         font-size: 1.5rem;
         margin-bottom: 0px;
+    }
+}
+
+@media(max-width:325px) {
+    .footer {
+        font-size: 1em;
+        margin-top: 21vh;
     }
 }
 
@@ -231,12 +229,37 @@ main .title {
         text-align: center;
         color: white;
         display: block;
+        margin-top: 10vh;
     }
 
     .footer a {
         color: white;
         font-size: 1rem;
         display: block;
+    }
+}
+
+@media(max-width:214px) {
+    .footer {
+        margin-top: 15vh;
+    }
+
+    main .title {
+        color: white;
+        margin-top: 55vh;
+        font-size: 1.5rem;
+    }
+}
+
+@media(max-width:212px) {
+    .footer {
+        margin-top: 10vh;
+    }
+}
+
+@media(max-width:200px) {
+    .footer {
+        margin-top: 8vh;
     }
 }
 
