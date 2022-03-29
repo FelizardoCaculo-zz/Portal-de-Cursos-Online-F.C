@@ -16,13 +16,44 @@
     color: var(--white);
 }
 
-header h1 {
+h1 {
     text-align: center;
     margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+h2 {
+    text-align: center;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+p{
+    line-height: 1.5rem;
 }
 
 .main-container {
     margin: 1rem 1rem 1rem 1rem;
+}
+
+.main-content {
+    margin-top: 2rem;
+}
+
+.main-content h2 {
+    text-align: center;
+}
+
+.secondary-content {
+    margin-top: 2rem;
+}
+
+.secondary-content h2 {
+    text-align: center;
+}
+
+.third-section {
+    margin-top: 2rem;
 }
 
 pre{
@@ -30,7 +61,27 @@ pre{
     border-radius: 10px;
     display: inline-block;
     margin: 1rem;
+    padding: 1rem;
     overflow-x: auto;
+    align-items: center;
+}
+
+.pre-inline {
+    display: inline-flex;
+    margin: 0;
+    margin-top: 2rem;
+    padding: 0;
+    border: 0px;
+}
+
+.html-features {
+    line-height: 1.5rem;
+    margin: 1rem;
+}
+
+.note {
+    text-align: center;
+    margin-top: 2rem;
 }
 
 strong {
